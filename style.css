@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #424652;
+}
+
+header{
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    color: #1b1e24;
+    font-size: 50px;
+}
+
+.score-board{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Roboto, sans-serif;
+    position: relative;
+}
+
+.badge{
+    background: #b6422e;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Roboto, sans-serif;
+}
+
+#user-label{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label{
+    position: absolute;
+    top: 30px;
+    right: -65px;
+}
+
+.result{
+    font-size: 40px;
+    color: white;
+}
+
+.result p{
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.choices{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.choice{
+    border: 7px solid rgb(114, 104, 138);
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 10px 0 10px;
+    transition: 0.4s;
+    background: white;
+}
+
+.choice:hover{
+    cursor: pointer;
+    border: 7px solid rgb(202, 190, 230);
+    background: tomato;
+}
+
+.choice i{
+    font-size: 100px;
+    padding: 25px;
+    color: rgb(114, 104, 138);
+    transition: 0.4s;
+}
+
+.choice:hover i{
+    color:  rgb(202, 190, 230);
+}
+
+#action{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
